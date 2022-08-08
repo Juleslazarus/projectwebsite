@@ -1,0 +1,180 @@
+/* styles for portfolio website*/
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed';
+}
+.mheaderbackground {
+  background-color: #f3efe5; /*middle area background */
+  padding: 300px;  
+}
+.hbackground {
+  background-color: #89af76;/*header sage color */
+}
+.hstyles,
+.navbar,
+.header,
+.navbutton {
+  display: inline-block;
+  color: #f3efe5; 
+  text-decoration: none;
+  letter-spacing: 1px; ;
+}
+.header,
+.navbutton {
+  font-size: 30px; 
+  
+}
+.header {
+  margin-right: 1450px; 
+  font-size: 40px; 
+  margin-left: 70px; 
+  font-weight: 900; 
+}
+.navbutton {
+  padding: 12px; 
+}
+.navbutton:hover {
+  text-decoration: underline;
+  transition: all ease-in-out .2s;
+  background-color: #597c47; /*hover background*/
+}
+
+.herotext {
+  color: #f3efe5; 
+  margin-left: 70px; 
+  font-size: 60px; 
+  font-weight: 700; 
+}
+.herosubtext {
+  color: #f3efe5; 
+  margin-top: -30px; 
+  margin-left: 72px;
+  font-size: 30px; 
+  font-weight: 450; 
+}
+.personalimg {
+  display: inline-block; 
+}
+
+.meimg {
+  display: inline-block; 
+  height: auto; 
+  width: 324px; 
+  margin-left: 1000px; 
+  padding-bottom: 46px; 
+  margin-top: -1300px; 
+}
+
+.cgamev1, 
+.cgamev1-1,
+.landingpage {
+  text-decoration: none;
+  color: #597c47; 
+  padding: 12px 20px 12px 20px; 
+  font-size: 20px; 
+     
+}
+.mhero {
+  padding-bottom: 60px; 
+  display: inline-block; 
+}
+.mhero,
+.mherosubtext {
+  display: inline;
+  color: #597c47; /*text color for cream background areas */
+
+}
+.mherotext {
+  font-size: 70px; 
+  font-weight: 800; 
+  margin: -250px 0px 0px 250px; 
+}
+.mherosubtext {
+  font-size: 30px; 
+  font-weight: 500; 
+  margin: -2150px 0px 0px 250px; 
+  
+}
+
+.projects {
+  margin-left: 25%; 
+}
+.cgamev1preview,
+.cgamev1-1preview,
+.toplandingpreview {
+  height: auto; 
+  width: 420px; 
+  padding: 200px 30px 20px 30px;  
+}
+.cgamev1 {
+  margin: 0px 220px 0px -215px; 
+}
+.cgamev1-1 {
+  margin: 0px 270px 0px 0px; f
+}
+.cgamev1:hover,
+.cgamev1-1:hover,
+.landingpage:hover {
+  background-color: #597c47; 
+  color: #f3efe5; 
+}
+
+
+.emailform {
+  height: 100vh; 
+  width: 100%; 
+  background-color: #f3efe5; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.formcontainer {
+  width: 90%; 
+  max-width: 500px; 
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: white;
+  margin-bottom: 30px; 
+  margin-top: -600px; 
+}
+.form-group {
+  width: 100%; 
+  margin-top: 20px; 
+  font-size: 20px; 
+}
+.form-group input,
+.form-group textarea {
+  width: 100%; 
+  padding: 5px; 
+  font-size: 18px; 
+  border: 1px solid #597c47; 
+  margin-top: 5px; 
+}
+textarea {
+  resize: vertical; 
+}
+.submitbutton{
+  width: 100%; 
+  border: none; 
+  outline: none; 
+  padding: 20px; 
+  font-size: 24px; 
+  border-radius: 8px; 
+  color: #f3efe5; 
+  background-color: #89af76;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px; 
+  transition: 0.3s ease background-color;
+}
+.submitbutton:hover {
+  background-color: #597c47;
+}
+.form-group input {
+  transition: .3s ease background-color;
+}
+.form-group input:hover {
+  background-color: #89af76;
+  color: #f3efe5;
+}
